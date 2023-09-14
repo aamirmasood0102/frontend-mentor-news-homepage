@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | News homepage</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+
+
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="img-con-logo">
+        <img class="img-logo" src="assets/images/logo.svg" alt="a logo of this news app">
+      </div>
+    </header>
+    <main>
+      <section>
+        <div class="nav">
+          <div class="nav-icon">
+            <img id="openMenuButton" src="assets/images/icon-menu.svg" alt="a hamburger icon for opening navigation menu">
+            <img id="closeMenuButton" class="hidden" src="assets/images/icon-menu-close.svg"
+              alt="a hamburger icon for closing navigation menu">
+          </div>
+          <nav id="nav" class="hidden">
+            <ul>
+              <li>
+                <a href="#home">Home</a>
+              </li>
+              <li>
+                <a href="#new">New</a>
+              </li>
+              <li>
+                <a href="#popular">Popular</a>
+              </li>
+              <li>
+                <a href="#trending">Trending</a>
+              </li>
+              <li>
+                <a href="#categories">Categories</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+
+      <div class="flex-row">
+        <section>
+          <div class="home" id="home">
+            <div class="img-con-home">
+              <img class="img-home" src="assets/images/image-web-3-mobile.jpg"
+                alt="a background image for home section">
+            </div>
+            <div class="text-home">
+              <h1>The Bright Future of Web 3.0?</h1>
+              <div class="flex-column">
+                <p>We dive into the next evolution of the web that claims to put the power of the platforms back into
+                  the
+                  hands of the people.But is it really fulfilling its promise?</p>
+                <div class="button-home">
+                  <button>Read more</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="new" id="new">
+            <h1>New</h1>
+            <div class="new-1">
+              <h1>Hydrogen VS Electric Cars</h1>
+              <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+            </div>
+            <div class="new-2">
+              <h1>The Downsides of AI Artistry</h1>
+              <p>What are the possible adverse effects of on-demand AI image generation?</p>
+            </div>
+            <div class="new-3">
+              <h1>Is VC Funding Drying Up?</h1>
+              <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <section>
+        <div class="popular" id="popular">
+          <div class="popular-1">
+            <img src="assets/images/image-retro-pcs.jpg" alt="an image for retro">
+            <div class="text-popular-1">
+              <h1>01</h1>
+              <h3>Reviving Retro PCs</h3>
+              <p>What happens when old PCs are given modern upgrades?</p>
+            </div>
+          </div>
+          <div class="popular-2">
+            <img src="assets/images/image-top-laptops.jpg" alt="an image for laptops">
+            <div class="text-popular-2">
+              <h1>02</h1>
+              <h3>Top 10 Laptops of 2022</h3>
+              <p>Our best picks for various needs and budgets.</p>
+            </div>
+          </div>
+          <div class="popular-3">
+            <img src="assets/images/image-gaming-growth.jpg" alt="an image for gaming">
+            <div class="text-popular-3">
+              <h1>03</h1>
+              <h3>The Growth of Gaming</h3>
+              <p>How the pandemic has sparked fresh opportunities.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://www.frontendmentor.io/profile/aamirmasood010">Muhammad Aamir Masood</a>.
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
